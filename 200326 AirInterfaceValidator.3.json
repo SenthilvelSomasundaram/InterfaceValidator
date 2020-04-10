@@ -46,7 +46,7 @@
 									" * Manual Definition of Controller Information (required for \"manual\" and \"network\" only)",
 									" ****************************************************************************************/",
 									"if (SOURCE_OF_INPUT_PARAMETERS === \"manual\" || SOURCE_OF_INPUT_PARAMETERS === \"network\") {",
-									"    IP_ADDRESS_OF_THE_CONTROLLER = \"10.118.125.76\";",
+									"    IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.200\";",
 									"    RESTCONF_PORT_AT_THE_CONTROLLER = \"8181\";",
 									"    AUTHORIZATION_CODE_AT_THE_CONTROLLER = \" -> Your authorization code at the controller <- \";",
 									"    PATH_TO_DB_AND_MOUNT_POINT = \"/rests/data/network-topology:network-topology/topology=topology-netconf\";",
