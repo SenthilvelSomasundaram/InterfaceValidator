@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "a931ac2e-1268-42b5-a910-b72185b33138",
+		"_postman_id": "f52cf7a8-af54-4afa-a2d0-c78f80651544",
 		"name": "AirInterfaceValidator.3",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -48,9 +48,7 @@
 									"if (SOURCE_OF_INPUT_PARAMETERS === \"manual\" || SOURCE_OF_INPUT_PARAMETERS === \"network\") {",
 									"    IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.200\";",
 									"    RESTCONF_PORT_AT_THE_CONTROLLER = \"8181\";",
-
-									"    AUTHORIZATION_CODE_AT_THE_CONTROLLER = \" -> Your authorization code at the controller- senthilvelsomasundaram <- \";",
-
+									"    AUTHORIZATION_CODE_AT_THE_CONTROLLER = \" -> Your authorization code at the controller <- \";",
 									"    PATH_TO_DB_AND_MOUNT_POINT = \"/rests/data/network-topology:network-topology/topology=topology-netconf\";",
 									"}",
 									"",
