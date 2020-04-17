@@ -1622,7 +1622,6 @@
 			"name": "EnvironmentInformationLoading",
 			"item": [
 				{
-				{
 					"name": "LoadingMantisIssues",
 					"event": [
 						{
@@ -5633,8 +5632,8 @@
 															"    });",
 															"}",
 															"",
-															"function CouldFunctionForUploadingInterfaceInformationBeCalled(success) {",
-															"    pm.test(\"CouldFunctionForUploadingInterfaceInformationBeCalled\", function () {",
+															"function CouldFunctionForCommentingTheResponseBeCalled(success) {",
+															"    pm.test(\"CouldFunctionForCommentingTheResponseBeCalled\", function () {",
 															"        pm.expect(success).to.be.true;",
 															"    });",
 															"}"
