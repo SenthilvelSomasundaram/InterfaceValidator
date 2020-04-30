@@ -1,7 +1,6 @@
 {
 	"info": {
-		"_postman_id": "c92d6a1c-0797-470d-ba1a-c9f8894abe06",
-		"name": "Primary Controller NAT IP",
+		"name": "Primary_Controller_Operations",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -47,7 +46,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"ericsson_trafficnode_06251\",\n     \"netconf-node-topology:port\": 8302,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.39\",\n     \"netconf-node-topology:schema-cache-directory\": \"ericsson_trafficnode_06251\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -103,7 +102,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"ericsson_trafficnode_13322\",\n     \"netconf-node-topology:port\": 8301,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.39\",\n     \"netconf-node-topology:schema-cache-directory\": \"ericsson_trafficnode_13322\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -159,7 +158,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13618\",\n     \"netconf-node-topology:port\": 17830,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.228\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13618\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -215,7 +214,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13619\",\n     \"netconf-node-topology:port\": 17831,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.228\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13619\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -271,7 +270,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"siae_alcplus2e_12969\",\n     \"netconf-node-topology:port\": 33002,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.45\",\n     \"netconf-node-topology:schema-cache-directory\": \"siae_alcplus2e_12969\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -327,7 +326,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"siae_alcplus2e_12970\",\n     \"netconf-node-topology:port\": 33001,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.45\",\n     \"netconf-node-topology:schema-cache-directory\": \"siae_alcplus2e_12970\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -383,7 +382,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14307\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.236\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14307\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -439,7 +438,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14308\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.237\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14308\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -502,7 +501,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_manager\",\n     \"netconf-node-topology:port\": 8300,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts_manager\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -558,7 +557,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_thorsten_50004\",\n     \"netconf-node-topology:port\": 50004,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -614,7 +613,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_andreas_50014\",\n     \"netconf-node-topology:port\": 50014,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -670,7 +669,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_katharina_50024\",\n     \"netconf-node-topology:port\": 50024,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -726,7 +725,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_thomas_50034\",\n     \"netconf-node-topology:port\": 50034,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -782,7 +781,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_senthilvel_50044\",\n     \"netconf-node-topology:port\": 50044,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -838,7 +837,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_prathiba_50045\",\n     \"netconf-node-topology:port\": 50045,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -894,7 +893,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_nallati_50046\",\n     \"netconf-node-topology:port\": 50046,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -950,7 +949,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_gaurav_50053\",\n     \"netconf-node-topology:port\": 50053,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1006,7 +1005,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_felix_50054\",\n     \"netconf-node-topology:port\": 50054,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1062,7 +1061,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_andreasH_50055\",\n     \"netconf-node-topology:port\": 50055,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1118,7 +1117,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_lumina_50064\",\n     \"netconf-node-topology:port\": 50064,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1174,7 +1173,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_andreasC_50065\",\n     \"netconf-node-topology:port\": 50065,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50065",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50065",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1230,7 +1229,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_tobiasK_50074\",\n     \"netconf-node-topology:port\": 50074,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1286,7 +1285,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_axel_50084\",\n     \"netconf-node-topology:port\": 50084,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1342,7 +1341,7 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_alexander_50085\",\n     \"netconf-node-topology:port\": 50085,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1398,7 +1397,7 @@
 									"raw": "{\r\n  \"simulator-config\": {\r\n    \"simulated-devices\": 9,\r\n    \"mounted-devices\": 0,\r\n    \"notification-config\": {\r\n      \"fault-notification-delay-period\": 0,\r\n      \"is-netconf-available\": true,\r\n      \"is-ves-available\": true,\r\n      \"ves-heartbeat-period\": 0\r\n    },\r\n    \"ves-endpoint-details\": {\r\n      \"ves-endpoint-port\": 30007,\r\n      \"ves-registration\": false,\r\n      \"ves-endpoint-auth-method\": \"no-auth\",\r\n      \"ves-endpoint-ip\": \"172.17.0.1\"\r\n    },\r\n    \"controller-details\": {\r\n      \"controller-ip\": \"172.17.0.1\",\r\n      \"controller-port\": 8181,\r\n      \"controller-username\": \"admin\",\r\n      \"controller-password\": \"admin\"\r\n    }\r\n  }\r\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/restconf/config/network-topology:network-topology/topology/topology-netconf/node/NTS-Manager/yang-ext:mount/network-topology-simulator:simulator-config",
+									"raw": "http://172.29.145.220:8181/restconf/config/network-topology:network-topology/topology/topology-netconf/node/NTS-Manager/yang-ext:mount/network-topology-simulator:simulator-config",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1471,7 +1470,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1527,7 +1526,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1583,7 +1582,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1639,7 +1638,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1695,7 +1694,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1751,7 +1750,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1814,7 +1813,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1870,7 +1869,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1926,7 +1925,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -1982,7 +1981,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2038,7 +2037,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2094,7 +2093,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2150,7 +2149,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2206,7 +2205,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2262,7 +2261,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2318,7 +2317,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2374,7 +2373,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2430,7 +2429,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2486,7 +2485,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50064",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50064",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2542,7 +2541,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2598,7 +2597,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2654,7 +2653,7 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
+									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
 									"protocol": "http",
 									"host": [
 										"10",
@@ -2716,7 +2715,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=nonconfig&fields=node(node-id;netconf-node-topology:connection-status)",
+							"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=nonconfig&fields=node(node-id;netconf-node-topology:connection-status)",
 							"protocol": "http",
 							"host": [
 								"10",
@@ -2833,7 +2832,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology?content=nonconfig",
+							"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology?content=nonconfig",
 							"protocol": "http",
 							"host": [
 								"10",
@@ -2945,7 +2944,7 @@
 							}
 						],
 						"url": {
-							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=config",
+							"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=config",
 							"protocol": "http",
 							"host": [
 								"10",
@@ -3013,7 +3012,7 @@
 									" * Manual Definition of Source of Environmental Parameters",
 									" ****************************************************************************************/",
 									"",
-									"IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.222\"; //\"172.29.145.222\"; // laboratory: 172.29.145.222",
+									"IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.220\"; //\"172.29.145.220\"; // laboratory: 172.29.145.220",
 									"RESTCONF_PORT_AT_THE_CONTROLLER = \"8181\";   // controller port",
 									"",
 									"/****************************************************************************************",
