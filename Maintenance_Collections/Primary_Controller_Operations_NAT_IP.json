@@ -1,5 +1,6 @@
 {
 	"info": {
+		"_postman_id": "1aa1f728-0ad4-4a2e-b19f-98b062a4285c",
 		"name": "Primary_Controller_Operations_NAT_IP",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -1769,6 +1770,118 @@
 								}
 							},
 							"response": []
+						},
+						{
+							"name": "zte_nr8120_14307",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14307\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.236\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14307\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=zte_nr8120_14307"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "zte_nr8120_14308",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14308\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.237\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14308\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=zte_nr8120_14308"
+									]
+								}
+							},
+							"response": []
 						}
 					],
 					"protocolProfileBehavior": {},
@@ -2981,7 +3094,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "2fbf91b0-a318-4ba9-8ab0-5c14082d6bb4",
+								"id": "0d3cef9a-15a7-4de1-8618-c9e4ecb6acf8",
 								"exec": [
 									"console.log(\"\\n\\n\\n==========================================================================================\");",
 									"console.log(\"================================= Device Status Monitoring ===================================\");",
@@ -3058,7 +3171,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "9238cfcf-2072-43d1-92e7-f1d05d382042",
+								"id": "4bc20a30-428f-4dfa-8385-b8f3c0162207",
 								"exec": [
 									"",
 									"var responseCode = pm.response.code;",
@@ -3164,7 +3277,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "86448d0a-8570-42a4-b7b6-ae0c8dfb5c38",
+								"id": "f227a4de-51a8-434f-8a8b-ff8265fbc644",
 								"exec": [
 									"console.log(\"================================= Device Operational status ===================================\");\r",
 									"\r",
@@ -3263,7 +3376,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "2d1421ee-7319-476f-9b55-ae0d94a56bfe",
+								"id": "0ce5f59a-4007-48ad-bbf3-c3c80b29e63f",
 								"exec": [
 									""
 								],
