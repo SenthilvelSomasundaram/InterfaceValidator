@@ -2694,10 +2694,7 @@
 							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology?content=nonconfig",
 							"protocol": "http",
 							"host": [
-								"10",
-								"118",
-								"125",
-								"76"
+								"172.29.145.222"
 							],
 							"port": "8181",
 							"path": [
@@ -2731,10 +2728,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://{{lmsdn}}:8181/restconf/operational/network-topology:network-topology/",
+									"raw": "http://172.29.145.222:8181/restconf/operational/network-topology:network-topology/",
 									"protocol": "http",
-									"host": [
-										"{{lmsdn}}"
+									"host": ["172.29.145.222"
+										
 									],
 									"port": "8181",
 									"path": [
@@ -2806,10 +2803,7 @@
 							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=config",
 							"protocol": "http",
 							"host": [
-								"10",
-								"118",
-								"125",
-								"76"
+                                   "172.29.145.222"
 							],
 							"port": "8181",
 							"path": [
