@@ -49,10 +49,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -105,10 +102,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -161,10 +155,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -217,10 +208,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -273,10 +261,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -329,10 +314,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -385,10 +367,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -441,10 +420,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -504,10 +480,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -560,10 +533,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -616,10 +586,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -672,10 +639,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -728,10 +692,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -784,10 +745,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -840,10 +798,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -896,10 +851,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -952,10 +904,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1008,10 +957,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1064,10 +1010,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1120,10 +1063,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1176,10 +1116,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50065",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1232,10 +1169,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1288,10 +1222,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1344,10 +1275,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1400,10 +1328,7 @@
 									"raw": "http://172.29.145.222:8181/restconf/config/network-topology:network-topology/topology/topology-netconf/node/NTS-Manager/yang-ext:mount/network-topology-simulator:simulator-config",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1473,10 +1398,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1529,10 +1451,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1585,10 +1504,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1641,10 +1557,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1697,10 +1610,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1753,10 +1663,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1816,10 +1723,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1872,10 +1776,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1928,10 +1829,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -1984,10 +1882,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2040,10 +1935,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2096,10 +1988,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2152,10 +2041,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2208,10 +2094,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2264,10 +2147,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2320,10 +2200,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2376,10 +2253,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2432,10 +2306,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2488,10 +2359,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50064",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2544,10 +2412,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2600,10 +2465,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
@@ -2656,10 +2518,7 @@
 									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
 									"protocol": "http",
 									"host": [
-										"10",
-										"118",
-										"125",
-										"76"
+                                   "172.29.145.222"
 									],
 									"port": "8181",
 									"path": [
