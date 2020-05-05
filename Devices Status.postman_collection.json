@@ -1,0 +1,292 @@
+{
+	"info": {
+		"_postman_id": "80ffe40e-bb06-42a3-bf15-30d40033c23c",
+		"name": "Devices Status",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Devices Mount Status",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "d6773d31-17e1-44ca-ba7f-2892127103c7",
+						"exec": [
+							"console.log(\"\\n==========================================================================================\");",
+							"console.log(\"================================= Device Status Monitoring ===================================\");",
+							"console.log(\"==========================================================================================\");",
+							"/*********************************************************************************************************",
+							" * ",
+							" * Request collection for Monitoring status of all Devices",
+							" * ",
+							" *  ",
+							" * This Request Collection is for perpetual complementation.",
+							" * ",
+							" *   !   Please, provide the following User Input   !",
+							" * ",
+							" *********************************************************************************************************/",
+							"",
+							"/****************************************************************************************",
+							" * Manual Definition of Source of Environmental Parameters",
+							" ****************************************************************************************/",
+							"IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.220\"; //\"10.118.125.76\"; // laboratory: 172.29.145.220",
+							"RESTCONF_PORT_AT_THE_CONTROLLER = \"8181\";   // controller port",
+							"AUTHORIZATION_CODE_AT_THE_CONTROLLER = \"c2VudGhpbHZlbC5zOlBSU2UwOA==\";",
+							"",
+							"/****************************************************************************************",
+							" * Below values will remain static, no change required",
+							" ****************************************************************************************/",
+							"PATH_TO_DB_AND_MOUNT_POINT = \"/rests/data/network-topology:network-topology/topology=topology-netconf\";",
+							"EXTENSION= \"content=nonconfig\";",
+							"FILTER= \"fields=node(node-id;netconf-node-topology:connection-status;netconf-node-topology:host;netconf-node-topology:port)\";",
+							" ",
+							"/****************************************************************************************",
+							"* Preparing the Request",
+							"****************************************************************************************/",
+							"try {",
+							"    var controller = \"http://\"+IP_ADDRESS_OF_THE_CONTROLLER + \":\" + RESTCONF_PORT_AT_THE_CONTROLLER +         ",
+							"                     PATH_TO_DB_AND_MOUNT_POINT;",
+							"                     ",
+							"    var uri = controller+\"?\"+EXTENSION+\"&\"+FILTER;",
+							"    CouldTheInputBeLoaded(controller, uri);",
+							"} catch(error){",
+							"    CouldTheInputBeLoaded();",
+							"}",
+							"",
+							"",
+							"/****************************************************************************************",
+							"* Setting up Local Variables and Preparing the Request",
+							"****************************************************************************************/",
+							"pm.variables.clear();",
+							"try {   ",
+							"    pm.variables.set(\"controller\", controller);",
+							"    pm.variables.set(\"uri\", uri);",
+							"    pm.request.headers.upsert({key:\"Authorization\", value: AUTHORIZATION_CODE_AT_THE_CONTROLLER});",
+							"    pm.request.headers.upsert({key:\"Accept\", value:\"application/json\"});",
+							"    pm.request.headers.upsert({key:\"Content-Type\", value:\"application/json\"});",
+							"} catch (error) { }",
+							"CouldTheGetRequestBePrepared();",
+							"",
+							"/****************************************************************************************",
+							" * Self Testing Functions",
+							" ****************************************************************************************/",
+							"function CouldTheInputBeLoaded(controller, uri) {",
+							"    pm.test(\"CouldTheInputBeLoaded\", function () {",
+							"        pm.expect(controller).to.be.a(\"string\");",
+							"        pm.expect(controller).to.not.have.lengthOf(0);",
+							"        pm.expect(uri).to.be.a(\"string\");",
+							"        pm.expect(uri).to.not.have.lengthOf(0);",
+							"    });",
+							"}",
+							"",
+							"function CouldTheGetRequestBePrepared() {",
+							"    pm.test(\"CouldTheGetRequestBePrepared\", function () {",
+							"        pm.expect(pm.variables.get(\"uri\")).to.be.a(\"string\");",
+							"        pm.expect(pm.variables.get(\"uri\")).to.not.have.lengthOf(0);",
+							"    });",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "780c9ad0-768d-4ea2-813c-e3068e21de10",
+						"exec": [
+							"",
+							"/****************************************************************************************",
+							"* Manual Definition of Source of Parameters",
+							"****************************************************************************************/",
+							"EXTENSION =\"/yang-ext:mount/core-model-1-4:control-construct/operational-state?content=nonconfig\"; ",
+							"var newNode = [];",
+							"var faultyNode = [];",
+							"var controller = pm.variables.get(\"controller\");",
+							"AreMainInputParametersCorrect(newNode, faultyNode, controller);",
+							"",
+							"/****************************************************************************************",
+							"* check if the response is successful and can be processed further",
+							"****************************************************************************************/",
+							"var responseCode = pm.response.code;",
+							"CouldTheResponseBeProcessed(responseCode);",
+							"",
+							"/****************************************************************************************",
+							"* Extract response and fetch node details",
+							"****************************************************************************************/",
+							"try {",
+							"    if (responseCode == 200) {",
+							"        var response = pm.response.json();",
+							"        var topology = response[\"network-topology:topology\"][0];",
+							"        console.log(\"Total Devices Available: \"+topology.node.length);",
+							"        console.log(\"Device node-id and Connection Status are listed Below :\");",
+							"        for(let i=0; i<topology.node.length; i++)",
+							"        {",
+							"            let node = topology.node[i];",
+							"            let nodeId = node[\"node-id\"];",
+							"            let status = node[\"netconf-node-topology:connection-status\"];",
+							"            ",
+							"            console.log(nodeId +\" is \"+status);",
+							"            if(status == \"connected\"){",
+							"                //console.log(\"Mounted Device node-id: \"+nodeid);",
+							"                newNode.push(nodeId);",
+							"            }",
+							"            else{",
+							"                faultyNode.push(nodeId);",
+							"            }",
+							"         }",
+							"    } else {",
+							"        console.log(\" ERROR: could not be retrieved. Response Code: \" + response.code);",
+							"    }",
+							"    CouldTheNodeBeProcessed(newNode,faultyNode);",
+							"} catch(error) {",
+							"    CouldTheNodeBeProcessed();",
+							"}",
+							"",
+							"/****************************************************************************************",
+							"* Display Faulty and Successful Nodes on console",
+							"****************************************************************************************/",
+							"console.log(\"***Total faulty Devices Which are not properly mounted are: \"+faultyNode.length+\" named \"+faultyNode);",
+							"console.log(\"***Total Mounted Devices that further needs to be Verified:*** \"+newNode.length);",
+							"console.log(\"Mounted Devices Whose Status are connected, Under Test : \");",
+							"",
+							"/****************************************************************************************",
+							"* Send request for all devices to findout Status",
+							"****************************************************************************************/",
+							"try {",
+							"    for (let i=0; i<newNode.length; i++) {",
+							"        var device = newNode[i];",
+							"        console.log(device);",
+							"        ",
+							"        uri = controller + \"/node=\" + device + EXTENSION;",
+							"        pm.sendRequest(uri,function (err,res) {",
+							"            if(err) {",
+							"                console.log(\"  Failed : \"+err.code);",
+							"            } else {",
+							"                var device = newNode[i];",
+							"                CouldTheResponseBeConsidered(device,res);",
+							"            }",
+							"        });",
+							"    }",
+							"} catch(error) {",
+							"    CouldTheResponseBeConsidered();",
+							"}",
+							"",
+							"/****************************************************************************************",
+							" * Self Testing Functions",
+							" ****************************************************************************************/",
+							"",
+							"function AreMainInputParametersCorrect(newNode, faultyNode, controller) {",
+							"    pm.test(\"AreMainInputParametersCorrect\", function(){",
+							"        pm.expect(pm.environment.get(\"newNode\")).to.be.an(\"undefined\");",
+							"        pm.expect(pm.environment.get(\"faultyNode\")).to.be.an(\"undefined\");",
+							"        pm.expect(controller).to.be.a(\"string\");",
+							"        pm.expect(controller).to.not.have.lengthOf(0);",
+							"    });",
+							"}",
+							"",
+							"function CouldTheResponseBeProcessed(responseCode) {",
+							"    pm.test(\"CouldTheResponseBeProcessed\", function(){",
+							"        pm.expect(responseCode).to.equal(200);",
+							"    });",
+							"}",
+							"",
+							"function CouldTheNodeBeProcessed(newNode,faultyNode) {",
+							"    pm.test(newNode.length+\" Devices: \"+newNode+\" are Connected\", function(){",
+							"         pm.expect(newNode).to.not.be.undefined;",
+							"         pm.expect(newNode).to.not.have.lengthOf(0);",
+							"    });",
+							"    if (faultyNode.length !== 0){",
+							"    pm.test(faultyNode.length+\" Devices: \"+faultyNode+\"  Not Connected\", function(){",
+							"         pm.expect(faultyNode).to.be.undefined;",
+							"    });",
+							"    }",
+							"}",
+							"",
+							"function CouldTheResponseBeConsidered(device,response) {",
+							"    pm.test('Device \"' +device+ '\" is now tested \\n\\n\\n' , function(){",
+							"        console.log(\"Received Response Code for  \"+device +\" is \"+response.code);",
+							"        pm.expect(response).to.have.property('code',200);",
+							"        pm.expect(response.text()).to.include(\"OPERATIONAL_STATE\");",
+							"    });",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "PRSe08",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "senthilvel.s",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{uri}}",
+					"host": [
+						"{{uri}}"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"auth": {
+		"type": "basic",
+		"basic": [
+			{
+				"key": "username",
+				"value": "gaurav.k",
+				"type": "string"
+			},
+			{
+				"key": "password",
+				"value": "PRSe15",
+				"type": "string"
+			}
+		]
+	},
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "6a83ccdc-f0b2-4922-8819-0a0c86fd2811",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "76060fb9-b31d-42d7-89d6-fe6d0f804be5",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "cd3e9267-c6d7-4e28-ad84-d94e01383b90",
+			"key": "controller",
+			"value": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
