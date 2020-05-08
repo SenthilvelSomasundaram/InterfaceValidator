@@ -1,6 +1,6 @@
 {
 	"info": {
-		"_postman_id": "2437f96a-1e51-4958-b0f7-f0d8a4321b61",
+		"_postman_id": "e9f535b2-6bda-4d89-88a8-a15b0619f833",
 		"name": "Primary_Controller_Operations",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
@@ -156,7 +156,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13618\",\n     \"netconf-node-topology:port\": 17830,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.228\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13618\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13618\",\n     \"netconf-node-topology:port\": 17830,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.220\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13618\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
 									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
@@ -212,7 +212,7 @@
 								],
 								"body": {
 									"mode": "raw",
-									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13619\",\n     \"netconf-node-topology:port\": 17831,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.228\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13619\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13619\",\n     \"netconf-node-topology:port\": 17831,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.220\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13619\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
 									"raw": "http://172.29.145.220:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
@@ -3094,7 +3094,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "023bf495-a335-461a-8465-70cee5e2dd8d",
+								"id": "ffb65acd-95de-4401-a0e1-159d6e11c806",
 								"exec": [
 									"console.log(\"\\n\\n\\n==========================================================================================\");",
 									"console.log(\"================================= Device Status Monitoring ===================================\");",
@@ -3125,7 +3125,7 @@
 									" * Manual Definition of Source of Environmental Parameters",
 									" ****************************************************************************************/",
 									"",
-									"IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.220\"; //\"172.29.145.220\"; // laboratory: 172.29.145.220",
+									"IP_ADDRESS_OF_THE_CONTROLLER = \"10.118.125.76\"; //\"172.29.145.220\"; // laboratory: 172.29.145.220",
 									"RESTCONF_PORT_AT_THE_CONTROLLER = \"8181\";   // controller port",
 									"",
 									"/****************************************************************************************",
@@ -3171,7 +3171,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "022abd18-8989-4650-b05c-b699996b00f1",
+								"id": "f71ebc1d-42dc-4474-93df-c942ce95e3a9",
 								"exec": [
 									"",
 									"var responseCode = pm.response.code;",
@@ -3250,12 +3250,12 @@
 							"basic": [
 								{
 									"key": "password",
-									"value": "PRSe08",
+									"value": "MoGen01",
 									"type": "string"
 								},
 								{
 									"key": "username",
-									"value": "senthilvel.s",
+									"value": "monitor",
 									"type": "string"
 								}
 							]
@@ -3277,7 +3277,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "2097425a-b285-42fb-8c27-a2613973231a",
+								"id": "6334d422-690a-4440-853e-041c42ee98a3",
 								"exec": [
 									"console.log(\"================================= Device Operational status ===================================\");\r",
 									"\r",
@@ -3376,7 +3376,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "ead5f6e2-0b6c-4274-a686-16f8cb2801fd",
+								"id": "95ba9a9d-d7e2-4a29-86fc-7f7a8f63f53c",
 								"exec": [
 									""
 								],
@@ -3389,13 +3389,13 @@
 							"type": "basic",
 							"basic": [
 								{
-									"key": "password",
-									"value": "PRSe08",
+									"key": "username",
+									"value": "monitor",
 									"type": "string"
 								},
 								{
-									"key": "username",
-									"value": "senthilvel.s",
+									"key": "password",
+									"value": "MoGen01",
 									"type": "string"
 								}
 							]

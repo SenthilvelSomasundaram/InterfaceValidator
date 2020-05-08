@@ -1,7 +1,7 @@
 {
 	"info": {
-		"_postman_id": "523037e9-71b1-403a-80e7-72cb74dcc625",
-		"name": "Secondary_Controller_Operations",
+		"_postman_id": "2c3f7cb4-e5fe-4c7d-8f9d-26720a4ba104",
+		"name": "Primary_Controller_Operations_NAT_IP",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
 	"item": [
@@ -47,13 +47,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"ericsson_trafficnode_06251\",\n     \"netconf-node-topology:port\": 8302,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.39\",\n     \"netconf-node-topology:schema-cache-directory\": \"ericsson_trafficnode_06251\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -103,13 +103,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"ericsson_trafficnode_13322\",\n     \"netconf-node-topology:port\": 8301,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.39\",\n     \"netconf-node-topology:schema-cache-directory\": \"ericsson_trafficnode_13322\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -159,13 +159,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13618\",\n     \"netconf-node-topology:port\": 17830,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.220\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13618\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -215,13 +215,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"huawei_rtn950_13619\",\n     \"netconf-node-topology:port\": 17831,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.220\",\n     \"netconf-node-topology:schema-cache-directory\": \"huawei_rtn950_13619\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -271,13 +271,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"siae_alcplus2e_12969\",\n     \"netconf-node-topology:port\": 33002,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.45\",\n     \"netconf-node-topology:schema-cache-directory\": \"siae_alcplus2e_12969\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -327,13 +327,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"siae_alcplus2e_12970\",\n     \"netconf-node-topology:port\": 33001,\n     \"netconf-node-topology:username\": \"admin\",\n     \"netconf-node-topology:password\": \"admin\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.45\",\n     \"netconf-node-topology:schema-cache-directory\": \"siae_alcplus2e_12970\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -383,13 +383,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14307\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.236\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14307\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -439,13 +439,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14308\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.237\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14308\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -454,6 +454,969 @@
 										"network-topology:network-topology",
 										"topology=topology-netconf",
 										"node=zte_nr8120_14308"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "NTS",
+					"item": [
+						{
+							"name": "highstreet_nts_manager",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_manager\",\n     \"netconf-node-topology:port\": 8300,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts_manager\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_manager"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_thorsten_50004",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_thorsten_50004\",\n     \"netconf-node-topology:port\": 50004,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_thorsten_50004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_andreas_50014",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_andreas_50014\",\n     \"netconf-node-topology:port\": 50014,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_andreas_50014"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_katharina_50024",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_katharina_50024\",\n     \"netconf-node-topology:port\": 50024,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_katharina_50024"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_thomas_50034",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_thomas_50034\",\n     \"netconf-node-topology:port\": 50034,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_thomas_50034"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_senthilvel_50044",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_senthilvel_50044\",\n     \"netconf-node-topology:port\": 50044,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_senthilvel_50044"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_prathiba_50045",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_prathiba_50045\",\n     \"netconf-node-topology:port\": 50045,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_prathiba_50045"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_nallati_50046",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_nallati_50046\",\n     \"netconf-node-topology:port\": 50046,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_nallati_50046"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_gaurav_5053",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_gaurav_50053\",\n     \"netconf-node-topology:port\": 50053,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_gaurav_50053"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_felix_50054",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_felix_50054\",\n     \"netconf-node-topology:port\": 50054,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_felix_50054"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_andreasH_50055",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_andreasH_50055\",\n     \"netconf-node-topology:port\": 50055,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_andreasH_50055"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_lumina_50064",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_lumina_50064\",\n     \"netconf-node-topology:port\": 50064,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_lumina_50064"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_andreasC_50065",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_andreasC_50065\",\n     \"netconf-node-topology:port\": 50065,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50065",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_andreasC_50065"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_tobiasK_50074",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_tobiasK_50074\",\n     \"netconf-node-topology:port\": 50074,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_tobiasK_50074"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_axel_50084",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_axel_50084\",\n     \"netconf-node-topology:port\": 50084,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_axel_50084"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_alexander_50085",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"highstreet_nts_alexander_50085\",\n     \"netconf-node-topology:port\": 50085,\n     \"netconf-node-topology:username\": \"netconf\",\n     \"netconf-node-topology:password\": \"netconf\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.145.241\",\n     \"netconf-node-topology:schema-cache-directory\": \"highstreet_nts\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_alexander_50085"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "start_simulated devices",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n  \"simulator-config\": {\r\n    \"simulated-devices\": 9,\r\n    \"mounted-devices\": 0,\r\n    \"notification-config\": {\r\n      \"fault-notification-delay-period\": 0,\r\n      \"is-netconf-available\": true,\r\n      \"is-ves-available\": true,\r\n      \"ves-heartbeat-period\": 0\r\n    },\r\n    \"ves-endpoint-details\": {\r\n      \"ves-endpoint-port\": 30007,\r\n      \"ves-registration\": false,\r\n      \"ves-endpoint-auth-method\": \"no-auth\",\r\n      \"ves-endpoint-ip\": \"172.17.0.1\"\r\n    },\r\n    \"controller-details\": {\r\n      \"controller-ip\": \"172.17.0.1\",\r\n      \"controller-port\": 8181,\r\n      \"controller-username\": \"admin\",\r\n      \"controller-password\": \"admin\"\r\n    }\r\n  }\r\n}"
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/restconf/config/network-topology:network-topology/topology/topology-netconf/node/NTS-Manager/yang-ext:mount/network-topology-simulator:simulator-config",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"restconf",
+										"config",
+										"network-topology:network-topology",
+										"topology",
+										"topology-netconf",
+										"node",
+										"NTS-Manager",
+										"yang-ext:mount",
+										"network-topology-simulator:simulator-config"
 									]
 								}
 							},
@@ -508,13 +1471,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_06251",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -564,13 +1527,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=ericsson_trafficnode_13322",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -620,13 +1583,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13618",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -676,13 +1639,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=huawei_rtn950_13619",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -732,13 +1695,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12969",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -788,13 +1751,13 @@
 									"raw": ""
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=siae_alcplus2e_12970",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -844,13 +1807,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14307\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.236\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14307\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14307",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -900,13 +1863,13 @@
 									"raw": "{\n \"node\": [\n    {\n     \"node-id\": \"zte_nr8120_14308\",\n     \"netconf-node-topology:port\": 830,\n     \"netconf-node-topology:username\": \"ztemw\",\n     \"netconf-node-topology:password\": \"User1234\",\n     \"netconf-node-topology:tcp-only\": false,\n     \"netconf-node-topology:host\": \"172.29.147.237\",\n     \"netconf-node-topology:schema-cache-directory\": \"zte_nr8120_14308\",\n     \"reconnect-on-changed-schema\": true\n    }\n ]\n}"
 								},
 								"url": {
-									"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=zte_nr8120_14308",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"10",
+										"118",
+										"125",
+										"76"
 									],
 									"port": "8181",
 									"path": [
@@ -915,6 +1878,909 @@
 										"network-topology:network-topology",
 										"topology=topology-netconf",
 										"node=zte_nr8120_14308"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "NTS",
+					"item": [
+						{
+							"name": "highstreet_nts_manager",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_manager",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_manager"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_thorsten_50004",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thorsten_50004",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_thorsten_50004"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_andreas_50014",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreas_50014",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_andreas_50014"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_katharina_50024",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_katharina_50024",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_katharina_50024"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_thomas_50034",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_thomas_50034",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_thomas_50034"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_senthilvel_50044",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_senthilvel_50044",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_senthilvel_50044"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_prathiba_50045",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_prathiba_50045",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_prathiba_50045"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_nallati_50046",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_nallati_50046",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_nallati_50046"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_gaurav_50053",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_gaurav_50053",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_gaurav_50053"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_felix_50054",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_felix_50054",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_felix_50054"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_andreasH_50055",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasH_50055",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_andreasH_50055"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_lumina_50064",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_lumina_50064",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_lumina_50064"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_andreasC_50065",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_andreasC_50064",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_andreasC_50064"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_tobiasK_50074",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_tobiasK_50074",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_tobiasK_50074"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_axel_50084",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_axel_50084",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_axel_50084"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "highstreet_nts_alexander_50085",
+							"request": {
+								"auth": {
+									"type": "basic",
+									"basic": [
+										{
+											"key": "password",
+											"value": "PRSe08",
+											"type": "string"
+										},
+										{
+											"key": "username",
+											"value": "senthilvel.s",
+											"type": "string"
+										}
+									]
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Accept",
+										"type": "text",
+										"value": "application/yang-data+json"
+									},
+									{
+										"key": "Content-Type",
+										"type": "text",
+										"value": "application/yang-data+json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": ""
+								},
+								"url": {
+									"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf/node=highstreet_nts_alexander_50085",
+									"protocol": "http",
+									"host": [
+										"10",
+										"118",
+										"125",
+										"76"
+									],
+									"port": "8181",
+									"path": [
+										"rests",
+										"data",
+										"network-topology:network-topology",
+										"topology=topology-netconf",
+										"node=highstreet_nts_alexander_50085"
 									]
 								}
 							},
@@ -962,13 +2828,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=nonconfig&fields=node(node-id;netconf-node-topology:connection-status)",
+							"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=nonconfig&fields=node(node-id;netconf-node-topology:connection-status)",
 							"protocol": "http",
 							"host": [
-								"172",
-								"29",
-								"145",
-								"222"
+								"10",
+								"118",
+								"125",
+								"76"
 							],
 							"port": "8181",
 							"path": [
@@ -1079,13 +2945,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology?content=nonconfig",
+							"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology?content=nonconfig",
 							"protocol": "http",
 							"host": [
-								"172",
-								"29",
-								"145",
-								"222"
+								"10",
+								"118",
+								"125",
+								"76"
 							],
 							"port": "8181",
 							"path": [
@@ -1119,13 +2985,10 @@
 									}
 								],
 								"url": {
-									"raw": "http://172.29.145.222:8181/restconf/operational/network-topology:network-topology/",
+									"raw": "http://{{lmsdn}}:8181/restconf/operational/network-topology:network-topology/",
 									"protocol": "http",
 									"host": [
-										"172",
-										"29",
-										"145",
-										"222"
+										"{{lmsdn}}"
 									],
 									"port": "8181",
 									"path": [
@@ -1194,13 +3057,13 @@
 							}
 						],
 						"url": {
-							"raw": "http://172.29.145.222:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=config",
+							"raw": "http://10.118.125.76:8181/rests/data/network-topology:network-topology/topology=topology-netconf?content=config",
 							"protocol": "http",
 							"host": [
-								"172",
-								"29",
-								"145",
-								"222"
+								"10",
+								"118",
+								"125",
+								"76"
 							],
 							"port": "8181",
 							"path": [
@@ -1231,7 +3094,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "0a9c4bf4-6fbd-41c9-80d7-1f629df355a7",
+								"id": "fba16b09-ff89-4f23-9733-0a7a0a51491f",
 								"exec": [
 									"console.log(\"\\n\\n\\n==========================================================================================\");",
 									"console.log(\"================================= Device Status Monitoring ===================================\");",
@@ -1262,7 +3125,7 @@
 									" * Manual Definition of Source of Environmental Parameters",
 									" ****************************************************************************************/",
 									"",
-									"IP_ADDRESS_OF_THE_CONTROLLER = \"172.29.145.222\"; //\"172.29.145.222\"; // laboratory: 172.29.145.222",
+									"IP_ADDRESS_OF_THE_CONTROLLER = \"10.118.125.76\"; //\"10.118.125.76\"; // laboratory: 172.29.145.220",
 									"RESTCONF_PORT_AT_THE_CONTROLLER = \"8181\";   // controller port",
 									"",
 									"/****************************************************************************************",
@@ -1308,7 +3171,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "b8dc3243-d029-4c50-a2bc-786eed692c28",
+								"id": "e2e66d97-2aae-442e-a967-268f68f746e7",
 								"exec": [
 									"",
 									"var responseCode = pm.response.code;",
@@ -1414,7 +3277,7 @@
 						{
 							"listen": "prerequest",
 							"script": {
-								"id": "632eb4ca-6525-4dfe-ad1b-066d1b237ef1",
+								"id": "af9da21a-5784-4219-98df-a017ed158a74",
 								"exec": [
 									"console.log(\"================================= Device Operational status ===================================\");\r",
 									"\r",
@@ -1513,7 +3376,7 @@
 						{
 							"listen": "test",
 							"script": {
-								"id": "0839790d-c952-4bdd-af91-a11279b08156",
+								"id": "6df3fbad-938f-4498-8758-a644f509304f",
 								"exec": [
 									""
 								],
